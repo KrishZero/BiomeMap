@@ -2,7 +2,7 @@
 #Include json.ahk
 
 SendDiscordAlert(message, title := "", color := "16777215", footer := "", imageUrl := "", localImagePath := "") {
-    webhookUrl := "https://discord.com/api/webhooks/1292218528400932958/2h9ZAgHH7StqoUtw4p0C5ykMGlPmMXucN9I29YsEIhU127vvqnOaPVWOIQGZ8vlggV9O"
+    webhookUrl := "" ; Put your webhook url here
 
     try {
         if (localImagePath && FileExist(localImagePath)) {
